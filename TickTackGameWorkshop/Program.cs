@@ -11,6 +11,8 @@ namespace TickTackGameWorkshop
             TicTacToeGame game = new TicTacToeGame();
             Console.WriteLine();
             //calling display method
-            game.DisplayBoard();        }
+            game.DisplayBoard();
+            game.SelectLetter();
+        }
     }
 }
