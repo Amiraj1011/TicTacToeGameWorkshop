@@ -13,7 +13,7 @@ namespace TickTackGameWorkshop
         char player, computer;
 
         //displayiong the display board 
-        public void DisplayBoard()
+        public string DisplayBoard()
         {
             Console.WriteLine("     |     |      ");
 
@@ -32,7 +32,9 @@ namespace TickTackGameWorkshop
             Console.WriteLine("  {0}  |  {1}  |  {2}", board[7], board[8], board[9]);
 
             Console.WriteLine("     |     |      ");
+            return "true";
         }
+
         public void SelectLetter()
         {
             Console.WriteLine("Please choose which letter you want to take-- X or O");

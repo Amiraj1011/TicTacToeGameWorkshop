@@ -12,13 +12,11 @@ namespace TestClass
             {
                 //AAA method
                 //Arrange
-                string message = "I am in sad mood";
-                string expected = "SAD";
-                //creating object of moodanalyzer class and passing message
+                string expected = "true";
+                //creating object of TicTacToeGame class
                 TicTacToeGame select = new TicTacToeGame();
-
-                //Act
-                string actual = select.AnalyseMood();
+                string actual = select.DisplayBoard();
+                
 
                 //Assert
                 //comparing actual and expected value
