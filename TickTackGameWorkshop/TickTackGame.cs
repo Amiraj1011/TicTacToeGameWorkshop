@@ -58,5 +58,51 @@ namespace TickTackGameWorkshop
 
 
         }
+        public void Position()
+        {
+            Console.WriteLine("Enter position from 1 to 9 ");
+            Console.WriteLine("Enter position you want to mark : ");
+            int choicePosition = Convert.ToInt32(Console.ReadLine());
+
+            if (choicePosition == 1)
+            {
+                board[1] = 'X';
+
+            }
+            else if (choicePosition == 2)
+            {
+                board[2] = 'X';
+            }
+            else if (choicePosition == 3)
+            {
+                board[3] = 'X';
+            }
+            else if (choicePosition == 4)
+            {
+                board[4] = 'X';
+            }
+            else if (choicePosition == 5)
+            {
+                board[5] = 'X';
+            }
+            else if (choicePosition == 6)
+            {
+                board[6] = 'X';
+            }
+            else if (choicePosition == 7)
+            {
+                board[7] = 'X';
+            }
+            else if (choicePosition == 8)
+            {
+                board[8] = 'X';
+            }
+            else if (choicePosition == 9)
+            {
+                board[9] = 'X';
+            }
+            
+        }
+
     }
 }
