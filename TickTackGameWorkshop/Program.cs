@@ -13,6 +13,7 @@ namespace TickTackGameWorkshop
             //calling display method
             game.DisplayBoard();
             game.SelectLetter();
+            game.Position();
         }
     }
 }
