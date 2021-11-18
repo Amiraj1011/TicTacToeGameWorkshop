@@ -44,7 +44,7 @@ namespace TickTackGameWorkshop
                 player = 'X';
                 computer = 'O';
             }
-            else if (letter == 'O') 
+            else if (letter == 'O')
             {
                 player = 'O';
                 computer = 'X';
@@ -68,9 +68,10 @@ namespace TickTackGameWorkshop
                 int choicePosition = Convert.ToInt32(Console.ReadLine());
 
                 board[choicePosition] = 'X';
-            }
-            
-        }
+                Console.WriteLine();
 
+            }
+
+        }
     }
 }
